@@ -1,0 +1,337 @@
+{
+  "lang": "en",
+  "locale": "en_US",
+  "nav": {
+    "home": "Overview",
+    "support": "Support",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  },
+  "common": {
+    "skip": "Skip to content",
+    "navigation": "Main navigation",
+    "footer_navigation": "Footer navigation",
+    "language": "简体中文",
+    "language_label": "以简体中文阅读此页面",
+    "footer": "Your videos. Your subtitles. Your device.",
+    "copyright": "© {year} {developer}. All rights reserved.",
+    "contents": "On this page",
+    "contact_title": "A little help, from a real person.",
+    "email_label": "Email support",
+    "contact_body": "Questions about SubFlow, subscriptions, or your privacy? Contact the developer, {developer}.",
+    "contact_note": "Please do not send passwords, API keys, payment details, or private media. Share only what is needed to explain the issue.",
+    "draft": "Preview — developer and support contact details must be set before publishing."
+  },
+  "home": {
+    "title": "SubFlow — Your videos, with subtitles",
+    "description": "An on-device subtitle player for iPhone and iPad. Generate complete sentences, watch in two languages, and take your subtitles with you.",
+    "eyebrow": "A subtitle-first video player",
+    "headline": "Stay in the story.<br><em>Follow every word.</em>",
+    "intro": "Your videos, with subtitles that keep up. SubFlow turns speech into complete sentences on your iPhone or iPad, so you can settle in and watch.",
+    "cta": "Explore SubFlow",
+    "download": "View on the App Store",
+    "secondary": "Get support",
+    "availability": "For iPhone & iPad · iOS / iPadOS 26 or later",
+    "prerelease": "Preparing for the App Store",
+    "preview_title": "A quiet escape",
+    "preview_tag": "SUBTITLE PREVIEW",
+    "scene": "THE LONG WAY HOME",
+    "caption_en": "There’s a whole world beyond the familiar.",
+    "caption_zh": "熟悉的风景之外，还有整个世界。",
+    "preview_ready": "On-device subtitles",
+    "preview_note": "Illustrative preview",
+    "preview_modes": "Preview subtitle style",
+    "modes": [
+      "Bilingual",
+      "Original",
+      "Cinema"
+    ],
+    "principles": [
+      "Speech recognition on your device",
+      "Two languages, one picture",
+      "No accounts. No ads. No tracking."
+    ],
+    "features_eyebrow": "Made for the way you watch",
+    "features_title": "Less searching for subtitles.<br>More getting into it.",
+    "features_intro": "From a favorite film to a saved lecture, keep the words close to the picture.",
+    "features": [
+      {
+        "title": "A sentence at a time.",
+        "body": "SubFlow transcribes ahead of playback on seekable media and shapes speech into readable sentences. Jump to another moment and recognition follows.",
+        "tag": "On-device recognition"
+      },
+      {
+        "title": "Two languages. Together.",
+        "body": "Keep the original and a translation in view. Built with Chinese, Japanese, and bilingual reading in mind, with adjustable subtitle styles.",
+        "tag": "Bilingual subtitles · Pro"
+      },
+      {
+        "title": "Words worth keeping.",
+        "body": "Save subtitles as SRT, or use Pro for VTT, ASS, and more export options. Refine text and timing with Pro, then use your subtitles wherever you need them.",
+        "tag": "Subtitle files, ready to go"
+      }
+    ],
+    "sources_eyebrow": "Bring your own library",
+    "sources_title": "Your collection.<br>Make yourself at home.",
+    "sources_body": "Open a video from Files, or connect your media collection with Pro. SubFlow reads and plays your media without changing files on your server.",
+    "sources_note": "Playback depends on the file’s codec and your device. DRM-protected content is not supported.",
+    "sources": [
+      [
+        "Local files & Apple Files",
+        "Included"
+      ],
+      [
+        "SMB · WebDAV · FTP / FTPS",
+        "Pro"
+      ],
+      [
+        "Emby · Jellyfin",
+        "Pro"
+      ]
+    ],
+    "plans_eyebrow": "Start watching. Go further.",
+    "plans_title": "A useful free player.<br>More possibilities with Pro.",
+    "free": "SubFlow Free",
+    "free_intro": "Full-length playback. A first taste of automatic subtitles.",
+    "free_features": [
+      "Play your videos without a playback time limit",
+      "Generate subtitles for the first 10 minutes of each video",
+      "Use existing embedded or external subtitles",
+      "Export SRT with a SubFlow attribution line"
+    ],
+    "pro": "SubFlow Pro",
+    "pro_badge": "Monthly or yearly",
+    "pro_intro": "One set of features. Choose the billing period that suits you.",
+    "pro_features": [
+      "Generate subtitles beyond the free 10-minute limit",
+      "Bilingual translation and subtitle styles",
+      "VTT / ASS export and SRT without attribution",
+      "Batch transcription and network media sources",
+      "Subtitle editing and AI timing alignment"
+    ],
+    "plans_note": "Prices and available plans are shown in the app before purchase. Subscriptions renew automatically unless canceled. Optional bring-your-own-key (BYOK) services are billed separately by your provider.",
+    "plans_link": "Subscription details",
+    "capability_note": "Recognition and translation depend on device, language, and installed model availability. A network connection may be needed to download models. Transcription is designed for interruptible foreground use; continuous background processing is not guaranteed.",
+    "privacy_eyebrow": "Personal by design",
+    "privacy_title": "Your media stays yours.",
+    "privacy_body": "Speech recognition runs on your device. We don’t operate a server that receives your audio or video. There is no account to create, no advertising, and no third-party analytics SDK.",
+    "privacy_detail": "If you choose an API service for translation or sentence refinement, subtitle text and necessary context go to that service using your API key. Your audio and video do not.",
+    "privacy_link": "Read our privacy policy"
+  },
+  "support": {
+    "title": "Support — SubFlow",
+    "description": "Get help with SubFlow subtitles, playback, network sources, purchases, and privacy. Contact {developer} at {email}.",
+    "eyebrow": "SubFlow support",
+    "headline": "Let’s get you<br>back to watching.",
+    "intro": "A few useful answers, and a direct line when you need a hand.",
+    "start_title": "Start here",
+    "start_body": "Open a video from your local files, choose the spoken language in the player’s subtitle controls, and enable automatic subtitles. For bilingual viewing, choose a translation language with Pro. Availability is checked on your device.",
+    "faq_title": "Common questions",
+    "report_title": "Tell us what happened",
+    "report_body": "For a useful bug report, include:",
+    "report_items": [
+      "Your iPhone or iPad model, iOS / iPadOS version, and SubFlow version.",
+      "What you were trying to do, what happened, and any visible error message.",
+      "The source type (local, Files, SMB, WebDAV, FTP / FTPS, Emby, or Jellyfin) and file format.",
+      "The spoken language and subtitle/translation language, if relevant.",
+      "Steps to reproduce the issue and a screenshot with private information removed, if helpful."
+    ],
+    "report_note": "You do not need to send the video itself. If a sample is needed, we will discuss a suitable, non-sensitive example with you.",
+    "faq": [
+      {
+        "q": "Which devices and languages are supported?",
+        "a": "SubFlow requires iOS 26 or iPadOS 26 or later. Playback and automatic subtitles have different requirements: recognition and Apple translation depend on device capabilities, language support, and installed models. The app checks availability at runtime. If recognition is unavailable, you can continue playback and use existing subtitles."
+      },
+      {
+        "q": "Why are automatic subtitles missing or delayed?",
+        "a": "Check that automatic subtitles are selected, the spoken language matches the audio, and required models are installed. Allow model downloads to finish, check available storage, and keep SubFlow in the foreground while processing. If the app shows an unsupported language or device message, use an existing subtitle track. Music, overlapping voices, and unclear speech can affect results."
+      },
+      {
+        "q": "What happens after the free 10 minutes?",
+        "a": "The free limit applies to automatic recognition for the first 10 minutes of each video. Full video playback and existing embedded or external subtitles remain available. Pro enables recognition beyond this limit, plus its other listed features."
+      },
+      {
+        "q": "Can SubFlow work offline?",
+        "a": "Local playback and supported on-device recognition/Apple translation can work once the required models and files are downloaded. Network media sources, BYOK services, model downloads, and App Store transactions need access to their respective services. A file visible in Files may still need downloading from its provider."
+      },
+      {
+        "q": "Why can’t I connect to my NAS or media server?",
+        "a": "Check the address, protocol, port, credentials, and the network connection. For a local server, allow Local Network access in iOS Settings and make sure the device can reach the server. Network sources require Pro. SubFlow browses and plays remote files; it does not upload, rename, or delete them."
+      },
+      {
+        "q": "How do I restore a purchase?",
+        "a": "Make sure the App Store is using the Apple Account that purchased SubFlow Pro, then use Restore Purchases on the Pro or subscription screen. Allow the App Store connection to complete. If access is still missing, contact support with the error message; do not send card details or your Apple Account password."
+      },
+      {
+        "q": "How do I cancel, change plans, or request a refund?",
+        "a": "Manage your subscription in <a href=\"https://apps.apple.com/account/subscriptions\">Apple’s subscription settings</a>. You can also open Settings → your name → Subscriptions on iPhone or iPad. Cancellation stops future renewals; access normally continues through the paid period. Deleting SubFlow does not cancel a subscription. Refund requests are handled by Apple at <a href=\"https://reportaproblem.apple.com/\">Report a Problem</a>."
+      },
+      {
+        "q": "Will I lose my subtitles if Pro expires?",
+        "a": "Existing generated, translated, edited, and exported subtitles are not deleted or shortened. You can continue to play and view saved content and use basic SRT export. New processing returns to free limits, and Pro processing/queues pause with committed progress preserved until Pro is available again."
+      },
+      {
+        "q": "Does Picture in Picture show SubFlow’s subtitles?",
+        "a": "Picture in Picture currently carries video and audio, but not subtitles drawn by SubFlow. Use the in-app player to view those subtitles."
+      },
+      {
+        "q": "Can I export a video with subtitles burned in?",
+        "a": "Video export is not currently available. You can export subtitle files; the free version supports SRT with an attribution line, and Pro offers additional formats and removes that line."
+      },
+      {
+        "q": "Where are my data and API keys stored?",
+        "a": "Subtitles, translations, preferences, and caches are stored locally. Server credentials and API keys use the system Keychain. Optional API services receive subtitle text and necessary context only when you configure and enable them. See the <a href=\"{privacy_url}\">privacy policy</a> for details, including website hosting and support email."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Privacy Policy — SubFlow",
+    "description": "How SubFlow handles on-device subtitles, optional API services, media sources, purchases, support requests, and this website.",
+    "eyebrow": "Privacy policy",
+    "headline": "Your media.<br>Your device.",
+    "intro": "A clear account of what stays on your device, what you can choose to share, and who handles it.",
+    "summary": "SubFlow does not require an account, upload your audio or video to us, display advertising, or include third-party analytics or tracking SDKs. Optional services you choose and this website have the separate data flows explained below.",
+    "sections": [
+      {
+        "id": "scope",
+        "title": "1. Who we are",
+        "body": [
+          "SubFlow is developed by {developer}. This policy covers the SubFlow iOS/iPadOS app, this website, and support communications. For privacy questions, contact <a href=\"mailto:{email}\">{email}</a>."
+        ]
+      },
+      {
+        "id": "on-device",
+        "title": "2. Processing on your device",
+        "body": [
+          "Speech recognition and supported Apple translation use on-device models. Media decoding, subtitle generation, editing, and subtitle file export are performed on your device. We do not operate a backend that receives your audio, video, or generated subtitles.",
+          "The app stores information needed for its features locally, including media you import, file access permissions/bookmarks, saved sources, playback history, preferences, subtitle tracks, translations, queue progress, and caches. Server credentials and API keys are stored in the system Keychain. Some features require model downloads or files to be retrieved from a file provider before local processing can begin."
+        ]
+      },
+      {
+        "id": "optional-services",
+        "title": "3. API services you choose",
+        "body": [
+          "If you configure and enable a bring-your-own-key (BYOK) service, SubFlow sends subtitle text and necessary context to the endpoint you select for translation or sentence refinement. Requests use the API key you provide for authentication. This feature does not send your audio or video.",
+          "The selected provider may receive connection information, including your IP address, and may retain or process requests according to its own policies. Its terms, privacy practices, and fees apply. Review those policies before enabling a service, and avoid sending text you do not want that provider to receive. To stop using the service, select Apple translation, turn off LLM sentence refinement, and stop any active processing or playback. You can revoke your API key directly with the provider."
+        ]
+      },
+      {
+        "id": "media-sources",
+        "title": "4. Files and network media sources",
+        "body": [
+          "When you open content from Apple Files or a file provider, that provider handles any download or cloud access under its own policies. When you connect a WebDAV, SMB, FTP/FTPS, Emby, or Jellyfin source, SubFlow sends access requests and necessary authentication information to the server you configure. That server can see the requested paths and normal connection information.",
+          "SubFlow reads and plays remote media; it does not offer remote upload, rename, or deletion. We do not receive your server credentials or proxy your media through our servers. The security of a connection depends on the protocol and server you choose; use protected connections where available."
+        ]
+      },
+      {
+        "id": "purchases",
+        "title": "5. Purchases and subscriptions",
+        "body": [
+          "Apple processes purchases, renewals, and refunds through the App Store. SubFlow reads Apple-verified transaction and subscription information to determine whether Pro features are available. We do not receive your payment card details. Apple may provide developers with sales and financial reports through App Store Connect. Apple’s handling of purchase information is governed by <a href=\"https://www.apple.com/legal/privacy/\">Apple’s privacy policy</a>."
+        ]
+      },
+      {
+        "id": "permissions",
+        "title": "6. Permissions",
+        "body": [
+          "SubFlow may request access relevant to speech recognition, local network connections, or files and folders you choose. It processes audio from your media files and does not use the microphone to record you. The app does not request access to your camera, contacts, or location. You can manage available permissions in system Settings; declining a permission may prevent the related feature from working."
+        ]
+      },
+      {
+        "id": "website-support",
+        "title": "7. This website and support email",
+        "body": [
+          "This static website is hosted on GitHub Pages. It does not use analytics scripts, advertising cookies, tracking pixels, or external fonts. GitHub may process visitor IP addresses and technical request information to deliver and secure the site. See <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">GitHub’s privacy statement</a>. Following a link to Apple or another service is subject to that service’s policies.",
+          "If you email support, we receive your email address, message, and any attachments you choose to send. We use them to respond to your request and investigate the issue. Support mail is handled through Gmail, subject to <a href=\"https://policies.google.com/privacy\">Google’s privacy policy</a>. Please do not send sensitive media, passwords, API keys, or payment details. We do not use support messages for advertising or sell them."
+        ]
+      },
+      {
+        "id": "retention",
+        "title": "8. Retention and your choices",
+        "body": [
+          "You can manage or delete imported files and saved subtitles in the app and remove saved media sources you no longer use. Removing a home shortcut alone does not remove the saved source. Removing a saved network source also removes its stored credentials. Uninstalling the app removes data in its local app container; exported files, original media, provider copies, device backups, and Keychain entries are handled separately. Keychain entries may remain after uninstalling. To invalidate a BYOK API key, revoke it with the provider; leaving the API key field empty in SubFlow keeps the previously saved key. Files exported elsewhere must be deleted at their destination.",
+          "If device backup is enabled, the operating system may include eligible app data in your device backup; manage backups through Apple’s settings. Deleting the app does not cancel an App Store subscription.",
+          "Support correspondence is retained only as needed to handle the request and related follow-up, or as required by law. You can request access, correction, or deletion of information you supplied to support by emailing <a href=\"mailto:{email}\">{email}</a>. Depending on where you live, additional privacy rights may apply. We cannot retrieve local-only app data from your device, and deletion requests for a provider’s own records must be directed to that provider."
+        ]
+      },
+      {
+        "id": "children",
+        "title": "9. Children’s privacy",
+        "body": [
+          "SubFlow does not require personal information or an account for local playback and subtitles. We do not knowingly collect children’s personal information through support communications. If you believe a child has provided personal information to us, contact us so we can address it and delete it as appropriate."
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "10. Changes and contact",
+        "body": [
+          "We may update this policy when the app or our practices change. The revision date at the top identifies the current version. Material changes will be communicated through this website or the app as appropriate. For questions or requests, contact {developer} at <a href=\"mailto:{email}\">{email}</a>."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms & Subscriptions — SubFlow",
+    "description": "Apple’s standard EULA, SubFlow Pro subscription information, cancellation, restoration, and usage information.",
+    "eyebrow": "Terms & subscriptions",
+    "headline": "The details,<br>in plain language.",
+    "intro": "The license that applies to SubFlow, how Pro subscriptions work, and useful links for managing a purchase.",
+    "summary": "SubFlow uses Apple’s Standard Licensed Application End User License Agreement (EULA). The information below explains the product and subscription behavior; it does not replace that agreement or your applicable consumer rights.",
+    "sections": [
+      {
+        "id": "license",
+        "title": "1. License agreement",
+        "body": [
+          "Your use of SubFlow is subject to <a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\">Apple’s Standard EULA</a>. SubFlow is developed by {developer}. For app support, contact <a href=\"mailto:{email}\">{email}</a>. Our <a href=\"{privacy_url}\">privacy policy</a> describes data handling."
+        ]
+      },
+      {
+        "id": "free-pro",
+        "title": "2. Free and Pro features",
+        "body": [
+          "The free version includes full-length video playback, automatic subtitles for the first 10 minutes of each video, use of existing subtitles, and SRT export with a SubFlow attribution line. The recognition limit does not limit video playback or the duration of existing subtitles.",
+          "SubFlow Pro is an auto-renewable subscription with monthly and yearly options offering the same features. Pro enables recognition beyond the free limit, bilingual translation, subtitle styles, additional subtitle export formats, batch transcription, network sources, subtitle editing, and AI timing alignment. Video export is currently unavailable. Device, language, model, and format limitations still apply."
+        ]
+      },
+      {
+        "id": "billing",
+        "title": "3. Billing and renewal",
+        "body": [
+          "Available plans, the billing period, and the actual local price are displayed in the app and Apple’s purchase confirmation before you subscribe. Payment is charged to your Apple Account. Subscriptions automatically renew unless canceled at least 24 hours before the current period ends; Apple may charge renewal during the 24 hours before the end of the period. Applicable taxes, pricing, and any price-change notifications are handled by Apple for your storefront.",
+          "Manage or cancel through <a href=\"https://apps.apple.com/account/subscriptions\">Apple’s subscription settings</a>. Canceling normally retains access for the remainder of the paid period. Deleting the app does not cancel your subscription. Refund requests are handled by Apple at <a href=\"https://reportaproblem.apple.com/\">Report a Problem</a>, subject to Apple’s rules and applicable law."
+        ]
+      },
+      {
+        "id": "expiry",
+        "title": "4. Restoring access and expiration",
+        "body": [
+          "Use Restore Purchases in SubFlow while signed into the Apple Account used to purchase Pro. Access depends on Apple-verified subscription status. When Pro expires, new processing returns to free limits and Pro processing safely stops or pauses with committed progress preserved.",
+          "Existing generated, translated, edited, or exported subtitles are not deleted or shortened because a subscription expires. You can still play and view saved content and use basic SRT export. Pro queues require a valid subscription to resume."
+        ]
+      },
+      {
+        "id": "services",
+        "title": "5. Your media and optional services",
+        "body": [
+          "You are responsible for having the rights needed to access media and use or share subtitle outputs. SubFlow does not supply a media catalog and does not bypass DRM. Network sources are provided for browsing and playback.",
+          "Optional BYOK services use the endpoint and API key you supply. Their terms and fees apply separately from SubFlow Pro. Automatic recognition, translation, and timing are imperfect; review outputs before relying on or distributing them. Supported languages and features depend on the device and installed models, and uninterrupted background transcription is not guaranteed."
+        ]
+      },
+      {
+        "id": "help",
+        "title": "6. Questions",
+        "body": [
+          "Visit <a href=\"{support_url}\">SubFlow Support</a> for troubleshooting, purchase restoration, or subscription questions. You can also contact {developer} at <a href=\"mailto:{email}\">{email}</a>."
+        ]
+      }
+    ]
+  },
+  "not_found": {
+    "title": "Page not found — SubFlow",
+    "eyebrow": "404 · A missing scene",
+    "headline": "Let’s find your way back.",
+    "body": "This page may have moved, or the address may be incomplete.",
+    "home": "Back to SubFlow",
+    "support": "Get support"
+  }
+}
