@@ -32,7 +32,7 @@
     "download": "View on the App Store",
     "secondary": "Get support",
     "availability": "For iPhone & iPad · iOS / iPadOS 26 or later",
-    "prerelease": "Preparing for the App Store",
+    "prerelease": "Coming soon on the App Store",
     "preview_title": "A quiet escape",
     "preview_tag": "SUBTITLE PREVIEW",
     "scene": "THE LONG WAY HOME",
@@ -67,13 +67,13 @@
       },
       {
         "title": "Words worth keeping.",
-        "body": "Save subtitles as SRT, or use Pro for VTT, ASS, and more export options. Refine text and timing with Pro, then use your subtitles wherever you need them.",
-        "tag": "Subtitle files, ready to go"
+        "body": "Export SRT, VTT, ASS, or TXT subtitle files with Pro, without SubFlow attribution. Refine text and timing, then use your subtitles wherever you need them.",
+        "tag": "Subtitle file export · Pro"
       }
     ],
     "sources_eyebrow": "Bring your own library",
     "sources_title": "Your collection.<br>Make yourself at home.",
-    "sources_body": "Open a video from Files, or connect your media collection with Pro. SubFlow reads and plays your media without changing files on your server.",
+    "sources_body": "Open a video from Files, or connect your NAS or media server for free. SubFlow reads and plays your media without changing files on your server.",
     "sources_note": "Playback depends on the file’s codec and your device. DRM-protected content is not supported.",
     "sources": [
       [
@@ -82,11 +82,11 @@
       ],
       [
         "SMB · WebDAV · FTP / FTPS",
-        "Pro"
+        "Included"
       ],
       [
         "Emby · Jellyfin",
-        "Pro"
+        "Included"
       ]
     ],
     "plans_eyebrow": "Start watching. Go further.",
@@ -96,17 +96,18 @@
     "free_features": [
       "Play your videos without a playback time limit",
       "Generate subtitles for the first 10 minutes of each video",
-      "Use existing embedded or external subtitles",
-      "Export SRT with a SubFlow attribution line"
+      "Use existing embedded or external subtitles and shift their timing",
+      "Connect to all supported network media sources",
+      "Adjust subtitle size, position, black outline, and background opacity"
     ],
     "pro": "SubFlow Pro",
     "pro_badge": "Monthly or yearly",
     "pro_intro": "One set of features. Choose the billing period that suits you.",
     "pro_features": [
       "Generate subtitles beyond the free 10-minute limit",
-      "Bilingual translation and subtitle styles",
-      "VTT / ASS export and SRT without attribution",
-      "Batch transcription and network media sources",
+      "Bilingual translation, advanced styles, and presets",
+      "SRT / VTT / ASS / TXT export without SubFlow attribution",
+      "Batch transcription with pause and resume",
       "Subtitle editing and AI timing alignment"
     ],
     "plans_note": "Prices and available plans are shown in the app before purchase. Subscriptions renew automatically unless canceled. Optional bring-your-own-key (BYOK) services are billed separately by your provider.",
@@ -156,11 +157,11 @@
       },
       {
         "q": "Why can’t I connect to my NAS or media server?",
-        "a": "Check the address, protocol, port, credentials, and the network connection. For a local server, allow Local Network access in iOS Settings and make sure the device can reach the server. Network sources require Pro. SubFlow browses and plays remote files; it does not upload, rename, or delete them."
+        "a": "All supported network sources are free, including SMB, WebDAV, FTP/FTPS, Emby, and Jellyfin. Check the address, protocol, port, credentials, and network connection. For a local server, allow Local Network access in iOS Settings and make sure the device can reach the server. SubFlow browses and plays remote files; it does not upload, rename, or delete them."
       },
       {
         "q": "How do I restore a purchase?",
-        "a": "Make sure the App Store is using the Apple Account that purchased SubFlow Pro, then use Restore Purchases on the Pro or subscription screen. Allow the App Store connection to complete. If access is still missing, contact support with the error message; do not send card details or your Apple Account password."
+        "a": "Make sure the App Store is using the Apple Account that purchased SubFlow Pro, then open Settings → SubFlow Pro → Restore Purchase in SubFlow. Allow the App Store connection to complete. If access is still missing, contact support with the error message; do not send card details or your Apple Account password."
       },
       {
         "q": "How do I cancel, change plans, or request a refund?",
@@ -168,15 +169,15 @@
       },
       {
         "q": "Will I lose my subtitles if Pro expires?",
-        "a": "Existing generated, translated, edited, and exported subtitles are not deleted or shortened. You can continue to play and view saved content and use basic SRT export. New processing returns to free limits, and Pro processing/queues pause with committed progress preserved until Pro is available again."
+        "a": "Existing generated, translated, edited, and exported subtitles are not deleted or shortened. You can continue to play and view saved content; exporting subtitle files again requires an active Pro subscription. New processing returns to free limits, and Pro processing/queues pause with committed progress preserved until Pro is available again."
       },
       {
         "q": "Does Picture in Picture show SubFlow’s subtitles?",
         "a": "Picture in Picture currently carries video and audio, but not subtitles drawn by SubFlow. Use the in-app player to view those subtitles."
       },
       {
-        "q": "Can I export a video with subtitles burned in?",
-        "a": "Video export is not currently available. You can export subtitle files; the free version supports SRT with an attribution line, and Pro offers additional formats and removes that line."
+        "q": "Can I export subtitle files or a video with subtitles?",
+        "a": "An active Pro subscription is required to export SRT, VTT, ASS, or TXT subtitle files, without SubFlow attribution. This also applies to existing embedded, imported, and previously saved subtitles. Importing, viewing, and automatic in-app saving remain available without Pro. Video export is not currently available."
       },
       {
         "q": "Where are my data and API keys stored?",
@@ -289,8 +290,8 @@
         "id": "free-pro",
         "title": "2. Free and Pro features",
         "body": [
-          "The free version includes full-length video playback, automatic subtitles for the first 10 minutes of each video, use of existing subtitles, and SRT export with a SubFlow attribution line. The recognition limit does not limit video playback or the duration of existing subtitles.",
-          "SubFlow Pro is an auto-renewable subscription with monthly and yearly options offering the same features. Pro enables recognition beyond the free limit, bilingual translation, subtitle styles, additional subtitle export formats, batch transcription, network sources, subtitle editing, and AI timing alignment. Video export is currently unavailable. Device, language, model, and format limitations still apply."
+          "The free version includes full-length video playback, automatic subtitles for the first 10 minutes of each video, existing embedded or external subtitles, manual subtitle timing shifts, and all supported network sources (WebDAV, SMB, FTP/FTPS, Emby, and Jellyfin). Subtitle size, position, black outline, and background opacity are also adjustable for free. The recognition limit does not limit video playback or the duration of existing subtitles. All subtitle file exports require an active Pro subscription.",
+          "SubFlow Pro is an auto-renewable subscription with monthly and yearly options offering the same features. Pro enables recognition beyond the free limit, bilingual translation, advanced subtitle styles and presets, SRT/VTT/ASS/TXT export without SubFlow attribution, batch transcription, subtitle editing, and AI timing alignment. Export requires Pro for embedded, imported, generated, and previously saved subtitle tracks alike. Video export is currently unavailable. Device, language, model, and format limitations still apply."
         ]
       },
       {
@@ -305,8 +306,8 @@
         "id": "expiry",
         "title": "4. Restoring access and expiration",
         "body": [
-          "Use Restore Purchases in SubFlow while signed into the Apple Account used to purchase Pro. Access depends on Apple-verified subscription status. When Pro expires, new processing returns to free limits and Pro processing safely stops or pauses with committed progress preserved.",
-          "Existing generated, translated, edited, or exported subtitles are not deleted or shortened because a subscription expires. You can still play and view saved content and use basic SRT export. Pro queues require a valid subscription to resume."
+          "Open Settings → SubFlow Pro → Restore Purchase in SubFlow while signed into the Apple Account used to purchase Pro. Access depends on Apple-verified subscription status. When Pro expires, new processing returns to free limits and Pro processing safely stops or pauses with committed progress preserved.",
+          "Existing generated, translated, edited, or exported subtitles are not deleted or shortened because a subscription expires. You can still play and view saved content. Exporting subtitle files again requires an active Pro subscription, and Pro queues require a valid subscription to resume."
         ]
       },
       {

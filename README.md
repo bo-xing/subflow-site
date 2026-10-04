@@ -37,7 +37,7 @@ python3 -m unittest discover -s tests -v
 
 ## App Store Connect 填写表
 
-**以下是部署成功后的预期网址，不表示仓库当前已发布。**
+**以下为当前公开网址；本地修改仍须通过 GitHub Pages 部署才会在线生效。**
 
 | 字段 / 用途 | English (U.S.) | 简体中文 |
 | --- | --- | --- |
@@ -54,7 +54,7 @@ App 的商店描述可附 `Terms of Use (EULA):` 与上述 Apple 链接，并附
 
 隐私政策 URL 在 **App Privacy** 中配置，支持/营销网址在版本的本地化信息中填写。
 支持网址必须能找到实际联系方式；隐私政策也需在 App 内可访问。
-本站支持页已包含姓名和邮件入口。主 App 当前显示应用内隐私摘要，公开政策发布后应接入完整网页链接。
+本站支持页已包含姓名和邮件入口。主 App 的设置与购买页面已接入完整隐私政策和条款入口。
 参见 [Apple 版本信息字段](https://developer.apple.com/help/app-store-connect/reference/app-information/platform-version-information/)
 与 [审核指南 5.1.1](https://developer.apple.com/app-store/review/guidelines/#data-collection-and-storage)。
 
@@ -73,7 +73,7 @@ App 的商店描述可附 `Terms of Use (EULA):` 与上述 Apple 链接，并附
 - `docs/STATUS.md`：本次交付与验证记录。
 
 取得真实商店链接后，填写 `app_store_url`，重新构建：首页按钮自动切为 App Store 链接并移除预发布提示。
-当前保留空值，避免假下载按钮或未经确认的商店 ID。
+当前 App 已提交审核，保留空值；待公开商店页面可访问后再添加下载入口。
 联系方式及政策修订日期由配置统一生成；变更隐私或产品行为时同时维护中英文。
 
 `site_url` 必须与实际部署地址一致。采用自定义域名时先配置 GitHub Pages 的域名/DNS，

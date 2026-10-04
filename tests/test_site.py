@@ -126,10 +126,10 @@ class SiteTests(unittest.TestCase):
     def test_app_store_button_is_only_shown_with_an_app_store_url(self):
         site = build.Site(dict(self.config, app_store_url=''))
         self.assertNotIn('href="https://apps.apple.com', site.home('en'))
-        self.assertIn('Preparing for the App Store', site.home('en'))
+        self.assertIn('Coming soon on the App Store', site.home('en'))
         site = build.Site(dict(self.config, app_store_url='https://apps.apple.com/app/id123456789'))
         self.assertIn('href="https://apps.apple.com/app/id123456789"', site.home('en'))
-        self.assertNotIn('Preparing for the App Store', site.home('en'))
+        self.assertNotIn('Coming soon on the App Store', site.home('en'))
 
     def test_content_remains_available_without_javascript(self):
         with tempfile.TemporaryDirectory() as tmp:

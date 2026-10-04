@@ -22,6 +22,16 @@ background transcription. Explain free first-ten-minute recognition separately
 from unlimited playback. Pro monthly/yearly plans have identical benefits;
 localized prices come from the App Store.
 
+Network source setup, browsing, and playback are free for every supported
+protocol. Basic subtitle size, position, black outline, background opacity,
+and manual track timing shifts are also free. All SRT/VTT/ASS/TXT file exports
+require active Pro, including embedded, imported, and previously saved tracks;
+exports contain no SubFlow attribution. Expiration keeps existing content
+available for playback and viewing, but exporting again requires Pro.
+Advanced styles/presets, bilingual translation, editing, AI timing alignment,
+and batch queues remain Pro features. Keep these rules consistent across
+feature cards, source labels, plan lists, FAQ, and subscription information.
+
 Distinguish local app processing from optional BYOK subtitle/context requests,
 user-configured media servers, Apple purchases, support email, and GitHub Pages
 hosting. Explain local retention, exported files, credentials, and provider
